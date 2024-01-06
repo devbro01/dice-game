@@ -13,7 +13,7 @@ let score = [0, 0];
 let gameOver = true;
 
 // switchPlayer
-const switchPlayer = () => {}
+const switchPlayer = () => {
   currentScore = 0;
   document.getElementById(`current--${activePlayer}`).textContent =
     currentScore;
